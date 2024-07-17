@@ -1,0 +1,67 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\abdalla\\source\\repos\\ClickUpWebIntegration\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0912E6C3-9F0D-4D10-833F-7535B2D869BA}|..\\..\\..\\Downloads\\ClassLibrary\\ClassLibrary\\ClassLibrary.csproj|c:\\users\\abdalla\\downloads\\classlibrary\\classlibrary\\clickup\\clickup clases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74880759-445D-4F5D-94FC-37E77DF9FBE3}|ClickUpTasks\\ClickUpTasks.csproj|c:\\users\\abdalla\\source\\repos\\clickupwebintegration\\clickuptasks\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74880759-445D-4F5D-94FC-37E77DF9FBE3}|ClickUpTasks\\ClickUpTasks.csproj|solutionrelative:clickuptasks\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0912E6C3-9F0D-4D10-833F-7535B2D869BA}|..\\..\\..\\Downloads\\ClassLibrary\\ClassLibrary\\ClassLibrary.csproj|c:\\users\\abdalla\\downloads\\classlibrary\\classlibrary\\clickup\\clickuppayload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClickUp Clases.cs",
+              "DocumentMoniker": "C:\\Users\\abdalla\\Downloads\\ClassLibrary\\ClassLibrary\\ClickUp\\ClickUp Clases.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Downloads\\ClassLibrary\\ClassLibrary\\ClickUp\\ClickUp Clases.cs",
+              "ToolTip": "C:\\Users\\abdalla\\Downloads\\ClassLibrary\\ClassLibrary\\ClickUp\\ClickUp Clases.cs",
+              "RelativeToolTip": "..\\..\\..\\Downloads\\ClassLibrary\\ClassLibrary\\ClickUp\\ClickUp Clases.cs",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAUwH0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T16:50:08.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Users\\abdalla\\source\\repos\\ClickUpWebIntegration\\ClickUpTasks\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "ClickUpTasks\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Users\\abdalla\\source\\repos\\ClickUpWebIntegration\\ClickUpTasks\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "ClickUpTasks\\Controllers\\TasksController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABUAAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T16:25:39.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClickUpPayload.cs",
+              "DocumentMoniker": "C:\\Users\\abdalla\\Downloads\\ClassLibrary\\ClassLibrary\\ClickUp\\ClickUpPayload.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Downloads\\ClassLibrary\\ClassLibrary\\ClickUp\\ClickUpPayload.cs",
+              "ToolTip": "C:\\Users\\abdalla\\Downloads\\ClassLibrary\\ClassLibrary\\ClickUp\\ClickUpPayload.cs",
+              "RelativeToolTip": "..\\..\\..\\Downloads\\ClassLibrary\\ClassLibrary\\ClickUp\\ClickUpPayload.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAA1wCEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T16:19:23.101Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+@ClickUpTasks_HostAddress = http://localhost:5016
+
+GET {{ClickUpTasks_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
