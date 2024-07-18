@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\abdalla\\source\\repos\\ClickUpWebIntegration\\ClickUpTasks\\ClickUpTasks.csproj": {}
+    "C:\\Users\\abdalla\\source\\repos\\Mazen\\ClickUpWebIntegration\\ClickUpTasks\\ClickUpTasks.csproj": {}
   },
   "projects": {
     "C:\\Users\\abdalla\\Downloads\\ClassLibrary\\ClassLibrary\\ClassLibrary.csproj": {
@@ -83,14 +83,14 @@
         }
       }
     },
-    "C:\\Users\\abdalla\\source\\repos\\ClickUpWebIntegration\\ClickUpTasks\\ClickUpTasks.csproj": {
+    "C:\\Users\\abdalla\\source\\repos\\Mazen\\ClickUpWebIntegration\\ClickUpTasks\\ClickUpTasks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abdalla\\source\\repos\\ClickUpWebIntegration\\ClickUpTasks\\ClickUpTasks.csproj",
+        "projectUniqueName": "C:\\Users\\abdalla\\source\\repos\\Mazen\\ClickUpWebIntegration\\ClickUpTasks\\ClickUpTasks.csproj",
         "projectName": "ClickUpTasks",
-        "projectPath": "C:\\Users\\abdalla\\source\\repos\\ClickUpWebIntegration\\ClickUpTasks\\ClickUpTasks.csproj",
+        "projectPath": "C:\\Users\\abdalla\\source\\repos\\Mazen\\ClickUpWebIntegration\\ClickUpTasks\\ClickUpTasks.csproj",
         "packagesPath": "C:\\Users\\abdalla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abdalla\\source\\repos\\ClickUpWebIntegration\\ClickUpTasks\\obj\\",
+        "outputPath": "C:\\Users\\abdalla\\source\\repos\\Mazen\\ClickUpWebIntegration\\ClickUpTasks\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

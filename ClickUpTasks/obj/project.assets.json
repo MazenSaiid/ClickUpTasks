@@ -5504,8 +5504,8 @@
     },
     "ClassLibrary/1.0.0": {
       "type": "project",
-      "path": "../../../../Downloads/ClassLibrary/ClassLibrary/ClassLibrary.csproj",
-      "msbuildProject": "../../../../Downloads/ClassLibrary/ClassLibrary/ClassLibrary.csproj"
+      "path": "../../../../../Downloads/ClassLibrary/ClassLibrary/ClassLibrary.csproj",
+      "msbuildProject": "../../../../../Downloads/ClassLibrary/ClassLibrary/ClassLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5521,11 +5521,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\abdalla\\source\\repos\\ClickUpWebIntegration\\ClickUpTasks\\ClickUpTasks.csproj",
+      "projectUniqueName": "C:\\Users\\abdalla\\source\\repos\\Mazen\\ClickUpWebIntegration\\ClickUpTasks\\ClickUpTasks.csproj",
       "projectName": "ClickUpTasks",
-      "projectPath": "C:\\Users\\abdalla\\source\\repos\\ClickUpWebIntegration\\ClickUpTasks\\ClickUpTasks.csproj",
+      "projectPath": "C:\\Users\\abdalla\\source\\repos\\Mazen\\ClickUpWebIntegration\\ClickUpTasks\\ClickUpTasks.csproj",
       "packagesPath": "C:\\Users\\abdalla\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\abdalla\\source\\repos\\ClickUpWebIntegration\\ClickUpTasks\\obj\\",
+      "outputPath": "C:\\Users\\abdalla\\source\\repos\\Mazen\\ClickUpWebIntegration\\ClickUpTasks\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
