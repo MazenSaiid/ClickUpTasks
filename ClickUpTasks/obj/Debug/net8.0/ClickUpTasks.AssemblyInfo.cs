@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClickUpTasks")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25f0433054b5d0a5c84c8a57e73ab6bccf0e12ec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea0cceb23368b944bc0688c0db252d6bf8bed835")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClickUpTasks")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClickUpTasks")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

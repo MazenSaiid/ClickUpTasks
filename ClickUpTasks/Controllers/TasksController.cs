@@ -18,8 +18,8 @@ namespace ClickUpTasks.Controllers
         private readonly string ClickUpApiKey = "pk_75493887_QE5PY69FYQQ0WUJZY7HQZ096AKGVOV37";
 
         [HttpPut]
-        [Route("DeleteCustomField")]
-        public async Task<IActionResult> DeleteTask([FromQuery] string fieldId, [FromBody] ClickUpPayload payload)
+        [Route("SetCustomFieldNull")]
+        public async Task<IActionResult> UpdateTask([FromQuery] string fieldId, [FromBody] ClickUpPayload payload)
         {
             try
             {
@@ -49,6 +49,7 @@ namespace ClickUpTasks.Controllers
                             var jsonContent = new StringContent(JsonConvert.SerializeObject(updateData), Encoding.UTF8, "application/json");
 
                             // PUT request to ClickUp API to update the custom field value
+
                             HttpResponseMessage response = await client.PutAsync($"task/{taskId}/field/{fieldId}", jsonContent);
 
                             if (response.IsSuccessStatusCode)
@@ -81,6 +82,69 @@ namespace ClickUpTasks.Controllers
                 Console.WriteLine($"Error processing webhook: {ex.Message}");
                 return StatusCode(500, "Internal server error");
             }
+        }
 
-    }   }
+        [HttpDelete]
+        [Route("DeleteCustomField")]
+        public async Task<IActionResult> DeleteTask([FromQuery] string fieldId, [FromBody] ClickUpPayload payload)
+        {
+            try
+            {
+                if (payload is null || payload.payload is null || fieldId is null)
+                {
+                    return BadRequest("Payload and fieldId are required");
+
+                }
+                // Check if payload status is deleted
+                if (payload.payload.status.status == "deleted")
+                {
+                    var taskId = payload.payload.id;
+                    var customField = payload.payload.custom_fields.FirstOrDefault(f => f.id == fieldId);
+
+                    if (customField != null)
+                    {
+                        using (var client = new HttpClient())
+                        {
+                            client.BaseAddress = new Uri("https://api.clickup.com/api/v2/");
+                            client.DefaultRequestHeaders.Add("Authorization", ClickUpApiKey);
+
+                            
+                            // Delete request to ClickUp API to update the custom field value
+                            using HttpResponseMessage request = await client.DeleteAsync("https://api.clickup.com/api/v2/task/" + taskId + "/field/" + fieldId);
+                            string response = await request.Content.ReadAsStringAsync();
+
+
+                            if (request.IsSuccessStatusCode)
+                            {
+                                // Custom field value deleted successfully
+                                Console.WriteLine("Custom field value deleted successfully.");
+                                return Ok("Custom field value deleted successfully.");
+                            }
+                            else
+                            {
+                                // Handle error response from ClickUp API
+                                Console.WriteLine("Failed to delete custom field value: " + request.ReasonPhrase);
+                                return StatusCode((int)request.StatusCode, "Failed to delete custom field value: ");
+                            }
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Custom field with ID {fieldId} is not found.");
+                        return NoContent();
+                    }
+                }
+                else
+                {
+                    return BadRequest("Payload status is not 'deleted'.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error processing webhook: {ex.Message}");
+                return StatusCode(500, "Internal server error");
+            }
+
+        }
+    }
 }
